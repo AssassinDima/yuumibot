@@ -45,6 +45,6 @@ async def pic(ctx, *, arg):
     else :
         await ctx.send("The name of the picture was not here.")
 
+token = open(f"{path}token.txt", "r")
 
-
-bot.run("")
+bot.run(token.read())

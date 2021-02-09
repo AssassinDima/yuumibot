@@ -33,7 +33,7 @@ async def on_ready():
 async def on_message(ctx):
     await bot.process_commands(ctx)
 
-
+#test
 
 
 @bot.command(pass_context=True)
